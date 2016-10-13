@@ -1,7 +1,7 @@
 {
-  "name": "bt-smart-hub-active-devices",
+  "name": "bt-smart-hub-devices",
   "version": "1.0.0",
-  "description": "Gets a list of active devices from the BT SmartHub",
+  "description": "Gets a list of devices from the BT SmartHub",
   "main": "index.js",
   "dependencies": {
     "md5-hex": "^1.3.0",
@@ -16,10 +16,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukeb-uk/node-bt-smart-hub-active-devices.git"
+    "url": "git+https://github.com/lukeb-uk/node-bt-smart-hub-devices.git"
   },
   "bugs": {
-    "url": "https://github.com/lukeb-uk/node-bt-smart-hub-active-devices/issues"
+    "url": "https://github.com/lukeb-uk/node-bt-smart-hub-devices/issues"
   },
-  "homepage": "https://github.com/lukeb-uk/node-bt-smart-hub-active-devices#readme"
+  "homepage": "https://github.com/lukeb-uk/node-bt-smart-hub-devices#readme"
 }

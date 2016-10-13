@@ -135,10 +135,13 @@ module.exports = {
         }).then((body) => {
             body = JSON.parse(body);
 
-            return body.reply.actions[0].callbacks[0].parameters.value.filter((item) => {
-                return item.Active && item.HostName.length > 0;
-            }).map((item) => {
-                return item.HostName;
+            return body.reply.actions[0].callbacks[0].parameters.value.map((item) => {
+                return {
+                    hostname: item.HostName,
+                    macAddress: item.PhysAddress,
+                    ip: item.IPAddress,
+                    active: item.Active
+                }
             });
         });
     }
